@@ -27,7 +27,10 @@ A minimal driver adapted from the arduino-goodix library can be found here:
 
 7.  In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/cores/arduino/api" replace HardwareSPI.h with the unzipped one.
 ***
-
+# ADDITIONAL LIBRARY DEPENANCIES:
+- LibPrintf
+- elapsedMillis
+***
 # PINOUTS
 
 ### CONNECTING THE TEENSY TO THE ER-TFTM101-1 in SPI 4 wire  mode:
