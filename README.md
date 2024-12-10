@@ -21,6 +21,7 @@ A minimal driver adapted from the arduino-goodix library can be found here:
 4. You will also have to replace 3 updated Mbed SPI files. These files are contained in the "extras" folder as 2 zip files.
    They contain SPI.cpp, SPI.h and HardWareSPI.h. Unzip both zip files. They have to replace the incompatible ones in Mbed-OS.
    In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/libraries/SPI" replace SPI.cpp and SPI.h with the 2 unzipped ones.
+
    In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/cores/arduino/api" replace HardwareSPI.h with the unzipped one.
 ***
 
