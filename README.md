@@ -1,5 +1,5 @@
-# TeensyRA8876-SPI
-## A RA8876 SPI DRIVER  library for Teensy boards and variants.
+# GIGA-RA8876-SPI
+## A RA8876 SPI DRIVER  library for the GIGA R1.
 
 This library is designed to be used with the GIGA-Ra8876-GFX-Common library and can be found here:
 - https://github.com/wwatson4506/GIGA-RA8876-GFX-Common
