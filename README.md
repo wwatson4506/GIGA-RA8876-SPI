@@ -18,12 +18,14 @@ A minimal driver adapted from the arduino-goodix library can be found here:
 1. Unzip this library to the **Arduino/libraries** folder.
 2. Unzip **GIGA-RA8876-GFX-Common**  library to the **Arduino/libraries** folder.
 3. Download **ILI9341_fonts** [https://github.com/wwatson4506/ILI9341_fonts](https://github.com/wwatson4506/ILI9341_fonts) and install into the **Arduino/libraries** folder.
-4. You will also have to replace 3 updated Mbed SPI files. These files are contained in the "extras" folder as 2 zip files.
+4. Due to a bug in the Mbed-os SPI drivers or my "not knowing" how to initialize SPI properly, using "transfer(buf,count)" will cause a crash if writing from flashmem.
+   It also overwrites any data in the buffer. AFAIK there is not another transfer function for this purpose. So I modified three of the Mbed-OS SPI files to fix this.
+5. You will also need to replace 3 updated Mbed SPI files. These files are contained in the "extras" folder as 2 zip files.
    They contain SPI.cpp, SPI.h and HardWareSPI.h. Unzip both zip files. They have to replace the incompatible ones in Mbed-OS.
 
-   In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/libraries/SPI" replace SPI.cpp and SPI.h with the 2 unzipped ones.
+6.  In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/libraries/SPI" replace SPI.cpp and SPI.h with the 2 unzipped ones.
 
-   In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/cores/arduino/api" replace HardwareSPI.h with the unzipped one.
+7.  In "~/.arduino15/packages/arduino/hardware/mbed_giga/4.2.1/cores/arduino/api" replace HardwareSPI.h with the unzipped one.
 ***
 
 # PINOUTS
