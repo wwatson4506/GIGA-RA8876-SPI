@@ -1,0 +1,12 @@
+{
+	"name": "GIGA_RA8876-SPI",
+	"frameworks": "Arduino",
+	"platforms": "GIGA R1",
+	"keywords": "GIGA_RA8876_SPI",
+	"description": "wwatson GIGA_RA8876-SPI Library",
+	"version": "1.0.0",
+	"authors":
+	{	"name": "Warren Watson",
+		"maintainer": true
+	}
+}
