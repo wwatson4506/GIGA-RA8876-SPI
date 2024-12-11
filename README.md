@@ -138,7 +138,9 @@ void loop() {
 Example sketches can be found in the GIGA-RA8876-SPI examples folders.
 
 - gauges  ---------------------->  A Sumotoy example originally created for the RA8875.
-- graphicCursor ------------->  A demonstration of defining and using a graphical mouse pointer. NOT FUNCTIONAL YET ON THE GIGA R1!.
+- graphicCursor ------------->  A demonstration of defining and using a graphical mouse pointer. **Updated**.
+  Will need this addsitional library for mouse usage:
+https://github.com/wwatson4506/GIGA_USBHostMBed5_devices/tree/Buffered_USB_Keyboard
 - graphics --------------------->  Demonstrates common graphics usage, lines, circles, rectangles and more.
 - ILI_ADA_FontTest4 -------> Demonstrates usage of ILI9341 and Adafruit fonts on the RA8876.
 - MemoryTransfer -----------> Shows usage of many BTE (Block Transfer Engine) functions.
