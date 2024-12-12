@@ -139,9 +139,10 @@ Example sketches can be found in the GIGA-RA8876-SPI examples folders.
 
 - gauges  ---------------------->  A Sumotoy example originally created for the RA8875.
 
-  **graphicCursor example UPDATED** Will need this additional library for mouse usage: 
+  **graphicCursor example UPDATED** Will need these two additional libraries for mouse usage: 
   https://github.com/wwatson4506/GIGA_USBHostMBed5_devices/tree/Buffered_USB_Keyboard
-
+  https://github.com/KurtE/Arduino_USBHostMbed5/tree/usb_host_fixes_lowspeed
+  
 - graphicCursor ------------->  A demonstration of defining and using a graphical mouse pointer.
 - graphics --------------------->  Demonstrates common graphics usage, lines, circles, rectangles and more.
 - ILI_ADA_FontTest4 -------> Demonstrates usage of ILI9341 and Adafruit fonts on the RA8876.
